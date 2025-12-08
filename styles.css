@@ -151,6 +151,8 @@ button {
     animation-delay: 4s;
 }
 
+
+
 @keyframes float {
 
     0%,
@@ -399,6 +401,11 @@ footer p {
     }
 
     /* Adjust floating shapes for mobile so they don't block text */
+    .floating-shapes .shape {
+        opacity: 0.2;
+        /* Make them more subtle on mobile */
+    }
+
     .shape-1 {
         width: 150px;
         height: 150px;
